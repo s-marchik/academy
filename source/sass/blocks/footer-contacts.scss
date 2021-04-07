@@ -1,0 +1,36 @@
+.footer-contacts {
+    margin-right: 84px;
+}
+.footer-contacts__title {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 32px;
+    color: $basic-black;
+    margin-left: 55px;
+    padding: 0;
+    margin-bottom: 17px;
+}
+
+.footer-contacts__list {
+    list-style: none;
+    margin-left: 60px;
+}
+.footer-contacts__link {
+    color:$basic-tomato;
+    display: inline-block;
+
+    &--mail{
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    text-decoration-line: underline;
+    margin-bottom: 20px;
+    }
+
+    &--tel{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 32px;
+    text-decoration-line: underline;
+    }
+}

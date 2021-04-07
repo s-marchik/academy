@@ -1,0 +1,85 @@
+.card {
+  margin-right: 30px;
+  padding: 40px 30px 30px;
+  width: 370px;
+  margin-top: 50px;
+  box-sizing: border-box;
+}
+
+.card__title {
+  width: 233px;
+  padding: 0;
+  margin: 0;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 38px;
+  letter-spacing: -1.07273px;
+  display: inline-block;
+
+  &--comfort{
+    letter-spacing: 0px
+  }
+}
+
+
+.card__cost {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 38px;
+  letter-spacing: -1.27273px;
+}
+
+.card_text {
+  margin-top: 35px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  width: 270px;
+
+  &::after {
+    width:310px;
+    height:1px;
+    background: $special-grey;
+    content: '';
+    display: block;
+    margin-top: 28px;
+    margin-bottom: 30px;
+    }
+}
+
+.card__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-left: 30px;
+
+  &--comfort{
+    margin-bottom: 30px;
+  }
+}
+
+.card__item {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 32px;
+  margin-bottom: 15px;
+
+  &:last-child{
+    margin-bottom: 30px;
+  }
+
+  &--comfort{
+    margin-bottom: 9px;
+    line-height: 33px;
+
+    &:last-child {
+      margin-bottom: 52px;
+    }
+  }
+}
+
+.card__button {
+  padding: 30px 68px;
+}

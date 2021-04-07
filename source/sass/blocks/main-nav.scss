@@ -1,0 +1,30 @@
+.main-nav__list {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  align-items: center;
+}
+
+.main-nav__item {
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 500;
+}
+
+.main-nav__item:first-child {
+  margin-right: 41px;
+  line-height: 32px;
+  color: $basic-black;
+}
+
+.main-nav__item:last-child {
+  margin-left: 91px;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 32px;
+  color: $basic-black;
+}
+
+.main-nav__link {
+  color: $basic-black;
+}

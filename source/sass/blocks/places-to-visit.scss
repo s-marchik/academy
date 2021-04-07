@@ -1,0 +1,69 @@
+.places-to-visit {
+max-width: 1170px;
+margin: 0 auto;
+padding-left: 10px;
+}
+
+.places-to-visit__title {
+  font-weight: 600;
+  font-size: 55px;
+  line-height: 80px;
+  letter-spacing: -1.245px;
+  margin: 0;
+  padding-top: 200px;
+  width: 200px;
+
+  &::after {
+    width:228px;
+    height:4px;
+    background: $basic-tomato;
+    content: '';
+    display: block;
+    margin-top: 30px;
+    }
+}
+
+.places-to-visit__text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: -.666667px;
+  width: 350px;
+  margin-top: 31px;
+  padding-bottom: 40px;
+}
+
+.places-to-visit__list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -30px;
+  padding: 0;
+  justify-content: center;
+}
+
+.places-to-visit__item {
+  position: relative;
+  padding: 0;
+  margin: 0 30px 94px;
+}
+
+.places-to-visit__picture {
+  margin:0
+}
+
+.places-to-visit__desc {
+  position: absolute;
+  font-weight: 500;
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: -.415px;
+  background-color: #fff;
+  bottom: 0;
+  width: 215px;
+  height: 67px;
+  line-height: 61px;
+  right: 50%;
+  transform: translateX(50%);
+  margin: 0;
+}

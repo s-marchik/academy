@@ -1,0 +1,28 @@
+.footer-next-travel {
+ margin-right: 65px;
+}
+.footer-next-travel__title {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 32px;
+    color: $basic-black;
+    margin-left: 40px;
+    padding: 0;
+    margin-bottom: 15px;
+}
+.footer-next-travel__list {
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 30px;
+    grid-row-gap:3px;
+}
+
+.footer-next-travel__item {
+    width: 100px;
+}
+
+.footer-next-travel__link {
+    color:$special-black;
+    text-decoration: none;
+}

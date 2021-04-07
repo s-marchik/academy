@@ -1,0 +1,54 @@
+.travels {
+  background-image: url("../img/travels__bg.jpg");
+  background-color: $basic-grey;
+  height: 860px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  background-position: center center;
+}
+
+.travels__wrapper{
+  margin-left: 1075px;
+  padding-top: 185px;
+}
+
+.travels__title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 55px;
+  line-height: 80px;
+  color: $basic-white;
+  width: 450px;
+  text-align: left;
+  margin:0;
+  letter-spacing: -1.10667px
+}
+
+.travels__text {
+  color: $basic-white;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 170%;
+  text-align: left;
+  width: 370px;
+  padding-top: 14px;
+  letter-spacing: -0.566667px;
+}
+
+.travels__link {
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  color: $basic-white;
+  text-align: left;
+  margin-top: 35px;
+  display: block;
+  padding:30px 0px 30px 40px;
+  background-color: $basic-tomato;
+  width: 300px;
+}

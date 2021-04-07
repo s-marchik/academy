@@ -1,0 +1,12 @@
+.page-header {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1160px;
+  margin: 0 auto;
+  padding-top: 23px;
+  padding-bottom: 15px;
+}
+
+.page-header__logo {
+  align-self: center;
+}
